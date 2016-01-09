@@ -7,17 +7,14 @@ body {
 }
 
 .header-img{
-  height: 200px;
+  height: 100px;
   width: auto;
 }
 .display-3{
-  font-family: fantasy;
-  font-size: 100%;
+  font-family: "Times New Roman";
 }
 .jumbotron {
-  padding: $jumbotron-padding ($jumbotron-padding / 2);
-  margin-bottom: $jumbotron-padding;
-  background-color: $jumbotron-bg;
+  background-color: #f2f2f2;
   @include border-radius($border-radius-lg);
 
   @include media-breakpoint-up(sm) {
@@ -33,4 +30,7 @@ body {
   padding-right: 0;
   padding-left: 0;
   @include border-radius(0);
+}
+.ital-header{
+	font-style: italic;
 }
