@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "description": "portfolio for Rob King",
+  "main": "gulpfile.js",
+  "authors": [
+    "Rob King <samiamspop@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "https://github.com/RobinBKing/RobinBKing.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "bootstrap": "^3.3.6",
+    "moment": "^2.12.0"
+  }
+}
