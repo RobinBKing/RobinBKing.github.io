@@ -3,8 +3,6 @@
 // var Constructor = require('../js/function-name.js').Constructor;
 //
 $(document).ready(function() {
-
+  $('.parallax').parallax();
 // var newConstructor = new Constructor();
-
-
 });
