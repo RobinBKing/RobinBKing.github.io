@@ -9,7 +9,7 @@
   $hero-background-bottom: #20392B;
   $hero-color: black;
   $gradient-angle: 10deg;
-  $hero-image: "./../../img/Portland-Oregon-skyline.jpg";
+  $hero-image: "./../img/Portland-Oregon-skyline.jpg";
 
   @include background(url($hero-image), linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat $hero-background-top scroll);
   background-color: #000000;
