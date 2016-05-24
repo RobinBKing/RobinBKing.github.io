@@ -1,59 +1,53 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="css/vendor.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.js"></script>
-    <script src="js/init.js"></script>
-    <script type="text/javascript" src="js/scripts.js"></script>
     <meta charset="utf-8">
     <title>Robin King Portfolio</title>
   </head>
   <body>
-    <div class="wrapper">
+    <header>
+      <nav class="black">
+        <ul class="hide-on-med-and-down">
+          <li class="volunteerConnection"><a href="#!">Volunteer Connection</a></li>
+          <li class="portlandPizza"><a href="#!">Portland Pizza Company</a></li>
+          <li class="product"><a href="#!">Product Site</a></li>
+          <li class="stori"><a href="http://robinbking.github.io/stori-case-study/" target="_blank">stori</a></li>
+          <li><a href="#" data-activates="about-slide-out" class="button-collapse-about show-on-large">About Me</a></li>
+        </ul>
+        <ul id="slide-out" class="side-nav">
+          <li class="volunteerConnection"><a href="#!">Volunteer Connection</a></li>
+          <li class="portlandPizza"><a href="#!">Portland Pizza Company</a></li>
+          <li class="product"><a href="#!">Product Site</a></li>
+          <li class="stori"><a href="http://robinbking.github.io/stori-case-study/" target="_blank">stori</a></li>
+          <li><a href="#" data-activates="about-slide-out" class="button-collapse-about show-on-large">About Me</a></li>
+        </ul>
+        <a href="#" data-activates="slide-out" class="button-collapse hide-on-large-only">
+          <i class="mdi-navigation-menu material-icons">menu</i>
+        </a>
+      </nav>
       <div class="hero">
         <div class="hero-inner">
           <a href="" class="hero-logo"><img src="./img/rk-logo.png" alt="Logo Image"></a>
           <div class="hero-copy">
-            <!-- <h1>Rob King</h1> -->
           </div>
         </div>
       </div>
-      <nav>
-        <ul class="right hide-on-med-and-down">
-          <li class="active"><a href="#!">Home</a></li>
-          <li><a href="#!">Volunteer Connection</a></li>
-          <li><a href="#!">Portland Pizza Company</a></li>
-          <li><a href="#!">Product Site</a></li>
-          <li><a href="http://robinbking.github.io/stori-case-study/" target="_blank">stori</a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
-        <ul id="slide-out" class="side-nav">
-          <li class="active"><a href="#!">Home</a></li>
-          <li><a href="#!">Volunteer Connection</a></li>
-          <li><a href="#!">Portland Pizza Company</a></li>
-          <li><a href="#!">Product Site</a></li>
-          <li><a href="http://robinbking.github.io/stori-case-study/" target="_blank">stori</a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
-        <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-      </nav>
-
-      <!-- <div class="navbar-fixed"> -->
-        <!-- <nav>
-          <div class="nav-wrapper">
-            <a href="#" class="brand-logo">RK</a>
-            <ul class="right hide-on-med-and-down">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="http://robinbking.github.io/stori-case-study/" target="_blank">stori</a></li>
-              <li><a href="#">Portland Pizza Company</a></li>
-              <li><a href="about.html">About</a></li>
-            </ul>
+    </header>
+    <main>
+      <div id="about-slide-out" class="side-nav container">
+        <div class="row">
+          <div class="col s12">
+            <h3>My name is Robin King</h3>
+            <h4>and I am a Front End Web Developer</h4>
+            <h5> After 10 as a .Net Web Developer, I decided to pursue the things that really matter to me: great user experience and eye pleasing design.
+            </h5>
           </div>
-        </nav> -->
-      <!-- </div> -->
-      <div class="container">
+        </div>
+      </div>
+
+      <!-- <div class="container">
         <h1>Projects</h1>
         <div class="row">
           <div class="col s12 m4">
@@ -118,7 +112,7 @@
               <span class="card-title">Nikon</span>
             </div>
             <div class="card-content">
-              <p> TThis application is an exercise in styling. This particular styling is CSS only and HTML. It will demonstrate at least one centered element, a list or summary of features, at least one large image with an absolutely positioned caption, at least one table or form field styled with CSS and a gallery of smaller images (e.g. similar products...).
+              <p> This application is an exercise in styling. This particular styling is CSS only and HTML. It will demonstrate at least one centered element, a list or summary of features, at least one large image with an absolutely positioned caption, at least one table or form field styled with CSS and a gallery of smaller images (e.g. similar products...).
                 <h6>software used:</h6>
                 <ul>
                   <li>JavaScript</li>
@@ -138,7 +132,35 @@
             </div>
           </div>
         </div>
+      </div> -->
+    </main>
+    <footer class="page-footer black">
+      <div class="container">
+        <div class="row">
+          <div class="col 12 m6">
+            <h5 class="amber-text">Contact</h5>
+            <address>
+              <ul>
+                <li><a class="amber-text text-lighten-3" href="mailto:samiamspop@gmail.com">email</a></li>
+                <li><a class="amber-text text-lighten-3" href="https://www.linkedin.com/in/robinbking" target="_blank">Linkedin</a></li>
+                <li><a class="amber-text text-lighten-3" href="https://https://github.com/RobinBKing" target="_blank">Github</a></li>
+              </ul>
+            </address>
+          </div>
+          <div class="col l2 m6">
+            <h5 class="amber-text">Projects</h5>
+            <ul>
+              <li id="volunteerConnection"><a class="amber-text text-lighten-3" href="#!">Volunteer Connection</a></li>
+              <li id="portlandPizza"><a class="amber-text text-lighten-3" href="#!">Portland Pizza Company</a></li>
+              <li id="product"><a class="amber-text text-lighten-3" href="#!">Product Site</a></li>
+              <li id="stori"><a class="amber-text text-lighten-3" href="http://robinbking.github.io/stori-case-study/" target="_blank">stori</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
+    </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script type="text/javascript" src="js/init.js"></script>
+  </body>
 </html>

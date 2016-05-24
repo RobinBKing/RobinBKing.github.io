@@ -91,7 +91,7 @@ $button-floating-radius: 50% !default;
 
 $card-padding: 20px !default;
 $card-bg-color: #fff !default;
-$card-link-color: color("orange", "accent-2") !default;
+$card-link-color: color("amber", "accent-2") !default;
 $card-link-color-light: lighten($card-link-color, 20%) !default;
 
 
@@ -215,7 +215,7 @@ $element-bottom-margin: ($gutter-width*2)/3 !default;
 
 $navbar-height: 64px !default;
 $navbar-height-mobile: 56px !default;
-$navbar-font-color: #ffb63e !default;
+$navbar-font-color: #ffc107 !default;
 $navbar-brand-font-size: 2.1rem !default;
 
 

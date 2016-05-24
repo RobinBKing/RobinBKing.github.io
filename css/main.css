@@ -3041,13 +3041,13 @@ input[type=range] + .thumb {
         left: 100%; } }
 
 nav {
-  color: #ffb63e;
+  color: #ffc107;
   background-color: black;
   width: 100%;
   height: 56px;
   line-height: 56px; }
   nav a {
-    color: #ffb63e; }
+    color: #ffc107; }
   nav i,
   nav [class^="mdi-"], nav [class*="mdi-"],
   nav i.material-icons {
@@ -3072,7 +3072,7 @@ nav {
       line-height: 56px; }
   nav .brand-logo {
     position: absolute;
-    color: #ffb63e;
+    color: #ffc107;
     display: inline-block;
     font-size: 2.1rem;
     padding: 0;
@@ -3108,7 +3108,7 @@ nav {
     nav ul a {
       transition: background-color .3s;
       font-size: 1rem;
-      color: #ffb63e;
+      color: #ffc107;
       display: inline-block;
       padding: 0 15px;
       cursor: pointer; }
@@ -3137,7 +3137,7 @@ nav {
         color: rgba(255, 255, 255, 0.7);
         transition: color .3s; }
       nav .input-field label.active i {
-        color: #ffb63e; }
+        color: #ffc107; }
       nav .input-field label.active {
         transform: translateY(0); }
 
@@ -3388,12 +3388,12 @@ small {
     padding: 20px;
     z-index: 2; }
     .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
-      color: #ffab40;
+      color: #ffd740;
       margin-right: 20px;
       transition: color .3s ease;
       text-transform: uppercase; }
       .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
-        color: #ffd8a6; }
+        color: #ffeca6; }
     .card .card-action + .card-reveal {
       z-index: 1;
       padding-bottom: 64px; }
@@ -6275,9 +6275,6 @@ html {
             font-size: 1.1em;
             max-width: 40%; } }
 
-.navigation {
-  max-width: 1000px; }
-
 .project-image {
   width: 200px;
   height: auto; }
@@ -6291,5 +6288,14 @@ html {
   .project-lg-image img {
     width: 100%;
     height: 100%; }
+
+#about-slide-out {
+  text-align: center;
+  text-shadow: 1px 1px white;
+  background-image: url("./../img/haystack.jpg");
+  background-color: #000000;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 /*# sourceMappingURL=main.css.map */

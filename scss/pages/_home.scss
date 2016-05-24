@@ -1,3 +1,13 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
+#about-slide-out {
+  text-align: center;
+  text-shadow: 1px 1px white;
+  // @include background(url("./../img/haystack.jpg"), linear-gradient($gradient-angle, #20392B, #7F99BE), no-repeat #7F99BE scroll);
+  background-image: url("./../img/haystack.jpg");
+  background-color: #000000;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
