@@ -6231,6 +6231,10 @@ html {
   position: absolute;
   width: 1px; }
 
+.nav-logo img {
+  width: 100%;
+  height: 100%; }
+
 .hero {
   background: url("./../img/Portland-Oregon-skyline.jpg"), -webkit-linear-gradient(-280deg, #20392B, #7F99BE), no-repeat #7F99BE scroll;
   background: url("./../img/Portland-Oregon-skyline.jpg"), linear-gradient(10deg, #20392B, #7F99BE), no-repeat #7F99BE scroll;
@@ -6274,6 +6278,10 @@ html {
           .hero .hero-inner .hero-copy p {
             font-size: 1.1em;
             max-width: 40%; } }
+
+.container .row .col .headshot img {
+  width: 100%;
+  height: 100%; }
 
 .project-image {
   width: 200px;
