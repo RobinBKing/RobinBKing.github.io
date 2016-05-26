@@ -9,19 +9,19 @@
   <body>
     <header>
       <nav class="black">
-        <a class="nav-logo btn-floating btn-large white" href="#"><img src="./img/rk-logo.png" alt="Logo Image"></a>
+        <!-- <a class="nav-logo btn-floating btn-large white" href="#"><img src="./img/rk-logo.png" alt="Logo Image"></a> -->
         <ul class="right hide-on-med-and-down">
-          <li class="volunteerConnection"><a href="#!">Volunteer Connection</a></li>
-          <li class="portlandPizza"><a href="#!">Portland Pizza Company</a></li>
-          <li class="product"><a href="#!">Product Site</a></li>
-          <li class="stori"><a href="http://robinbking.github.io/stori-case-study/" target="_blank">stori</a></li>
+          <li><a href="#" data-activates="volunteer-slide-out" class="button-collapse-volunteer show-on-large">Volunteer Connection</a></li>
+          <li><a href="#" data-activates="pizza-slide-out" class="button-collapse-pizza show-on-large">Portland Pizza</a></li>
+          <li><a href="#" data-activates="product-slide-out" class="button-collapse-product show-on-large">Product Promo</a></li>
+          <li><a href="#" data-activates="stori-slide-out" class="button-collapse-stori show-on-large">Stori</a></li>
           <li><a href="#" data-activates="about-slide-out" class="button-collapse-about show-on-large">About Me</a></li>
         </ul>
         <ul id="slide-out" class="side-nav">
-          <li class="volunteerConnection"><a href="#!">Volunteer Connection</a></li>
-          <li class="portlandPizza"><a href="#!">Portland Pizza Company</a></li>
-          <li class="product"><a href="#!">Product Site</a></li>
-          <li class="stori"><a href="http://robinbking.github.io/stori-case-study/" target="_blank">stori</a></li>
+          <li><a href="#" data-activates="volunteer-slide-out" class="button-collapse-volunteer show-on-large">Volunteer Connection</a></li>
+          <li><a href="#" data-activates="pizza-slide-out" class="button-collapse-pizza show-on-large">Portland Pizza</a></li>
+          <li><a href="#" data-activates="product-slide-out" class="button-collapse-product show-on-large">Product Promo</a></li>
+         <li><a href="#" data-activates="stori-slide-out" class="button-collapse-stori show-on-large">Stori</a></li>
           <li><a href="#" data-activates="about-slide-out" class="button-collapse-about show-on-large">About Me</a></li>
         </ul>
         <a href="#" data-activates="slide-out" class="button-collapse hide-on-large-only">
@@ -30,63 +30,26 @@
       </nav>
       <div class="hero">
         <div class="hero-inner">
-          <!-- <a href="" class="hero-logo"><img src="./img/rk-logo.png" alt="Logo Image"></a> -->
+          <a href="" class="hero-logo"><img src="./img/rk-logo.png" alt="Logo Image"></a>
           <div class="hero-copy">
           </div>
         </div>
       </div>
     </header>
     <main>
-      <div id="about-slide-out" class="side-nav container">
+      <div id="volunteer-slide-out" class="side-nav container">
         <div class="row">
           <div class="col s12">
-            <a class="headshot btn-floating btn-large" href="#"><img src="./img/headshotcalifornia.jpg" alt="headshot Image"></a>
-            <h3>My name is Robin King</h3>
-            <h4>and I am a Front End Web Developer</h4>
-            <h5> After 10 as a .Net Web Developer, I decided to pursue the things that really matter to me: great user experience and eye pleasing design.
-            </h5>
-          </div>
-        </div>
-      </div>
-
-      <!-- <div class="container">
-        <h1>Projects</h1>
-        <div class="row">
-          <div class="col s12 m4">
-            <div class="card z-depth-3">
-              <div class="card-image">
-                <img src="img/portlandPizzaCo.png">
-                <span class="card-title">Portland Pizza Company</span>
-              </div>
-              <div class="card-content">
-                <p> This application is a study in o OOP using JavaScript objects and prototyps of objects and objects within objects. A user can select the pizza size and add ingredients. By placing the order a total cost will be calculated and returned.
-                  <h6>software used:</h6>
-                  <ul>
-                    <li>JavaScript</li>
-                    <li>jQuery</li>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                  </ul>
-                  <h6>Testing</h6>
-                  <ul>
-                    <li>Mocha</li>
-                    <li>Chai</li>
-                  </ul>
-                </p>
-              </div>
-              <div class="card-action">
-                <a href="http://robinbking.github.io/portlandPizzaCompany/">View websit</a>
-              </div>
-            </div>
-          </div>
-          <div class="col s12 m4">
             <div class="card z-depth-3">
               <div class="card-image">
                 <img src="img/volunteerConnection.png">
                 <span class="card-title">Volunteer Connection</span>
               </div>
+              <div class="card-action">
+                <a href="http://robinbking.github.io/VolunteerMatch/" target="_blank">View website &raquo;</a>
+              </div>
               <div class="card-content">
-                <p> This application will display a list of volunteer organizations based on user input, using an API from the All For Good organization. This was a group project for which I was the team lead.
+                <p> Displays a list of volunteer organizations based on user input, using an API from the All For Good organization. This was a group project for which I was the team lead.
                   <h6>software used:</h6>
                   <ul>
                     <li>JavaScript</li>
@@ -102,39 +65,120 @@
                   <h6>Data: All For Good API: http://www.allforgood.org/</h6>
                 </p>
               </div>
-              <div class="card-action">
-                <a href="http://robinbking.github.io/VolunteerMatch/" target="_blank">View website &raquo;</a>
-              </div>
-            </div>
-          </div>
-          <div class="col s12 m4">
-          <div class="card z-depth-3">
-            <div class="card-image">
-              <img src="img/product.png">
-              <span class="card-title">Nikon</span>
-            </div>
-            <div class="card-content">
-              <p> This application is an exercise in styling. This particular styling is CSS only and HTML. It will demonstrate at least one centered element, a list or summary of features, at least one large image with an absolutely positioned caption, at least one table or form field styled with CSS and a gallery of smaller images (e.g. similar products...).
-                <h6>software used:</h6>
-                <ul>
-                  <li>JavaScript</li>
-                  <li>jQuery</li>
-                  <li>HTML5</li>
-                  <li>CSS3</li>
-                </ul>
-                <h6>Testing</h6>
-                <ul>
-                  <li>Mocha</li>
-                  <li>Chai</li>
-                </ul>
-              </p>
-            </div>
-            <div class="card-action">
-              <a href="http://robinbking.github.io/product/" target="_blank" role="button">View website &raquo;</a>
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
+      <div id="pizza-slide-out" class="side-nav container">
+        <div class="row">
+          <div class="col s12">
+            <div class="card z-depth-3">
+              <div class="card-image">
+                <img src="img/portlandPizzaCo.png">
+                <span class="card-title">Portland Pizza Company</span>
+              </div>
+              <div class="card-action">
+                <a href="http://robinbking.github.io/portlandPizzaCompany/">View website</a>
+              </div>
+              <div class="card-content">
+                <p> A study in o Object Oriented Programming using JavaScript objects and prototyps of objects and objects within objects. A user can select the pizza size and add ingredients. By placing the order a total cost will be calculated and returned.
+                  <h6>software used:</h6>
+                  <ul>
+                    <li>JavaScript</li>
+                    <li>jQuery</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                  </ul>
+                  <h6>Testing</h6>
+                  <ul>
+                    <li>Mocha</li>
+                    <li>Chai</li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="product-slide-out" class="side-nav container">
+        <div class="container">
+          <div class="row">
+            <div class="col s12">
+              <div class="card z-depth-3">
+                <div class="card-image">
+                  <img src="img/product.png">
+                  <span class="card-title">Nikon</span>
+                </div>
+                <div class="card-action">
+                  <a href="http://robinbking.github.io/product/" target="_blank" role="button">View website &raquo;</a>
+                </div>
+                <div class="card-content">
+                  <p> A study in styling. This particular styling is CSS only and HTML. It will demonstrate centered elements, a list or summary of features, one large image with an absolutely positioned caption, tables and form fields styled with CSS and a gallery of smaller images (e.g. similar products...).
+                    <h6>software used:</h6>
+                    <ul>
+                      <li>JavaScript</li>
+                      <li>jQuery</li>
+                      <li>HTML5</li>
+                      <li>CSS3</li>
+                    </ul>
+                    <h6>Testing</h6>
+                    <ul>
+                      <li>Mocha</li>
+                      <li>Chai</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="stori-slide-out" class="side-nav container">
+        <div class="container">
+          <div class="row">
+            <div class="col s12">
+              <div class="card z-depth-3">
+                <div class="card-image">
+                  <img src="img/stori.png">
+                  <span class="card-title">stori</span>
+                </div>
+                <div class="card-action">
+                  <a href="http://robinbking.github.io/stori-case-study/" target="_blank" role="button">View Case Study &raquo;</a>
+                </div>
+                <div class="card-content">
+                  <p> A design project for for a website called Stori. The website would include a word processor, the ability to organize a novel project in a flexible mannor and a portal for news and networking in the writing community.
+                    <h6>Design tools:</h6>
+                    <ul>
+                      <li>Sketch</li>
+                      <li>InVision</li>
+                    </ul>
+                    <h6>Case study tools:</h6>
+                    <ul>
+                      <li>JavaScript</li>
+                      <li>jQuery</li>
+                      <li>Materialize</li>
+                      <li>HTML5</li>
+                      <li>CSS3</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="about-slide-out" class="side-nav container">
+        <div class="row">
+          <div class="col s12">
+            </div>
+            <a class="headshot btn-floating btn-large" href="#"><img src="./img/headshotcalifornia.jpg" alt="headshot Image"></a>
+            <h3>My name is Robin King</h3>
+            <h4>and I am a Front End Web Developer</h4>
+            <h5> After 10 as a .Net Web Developer, I decided to pursue the things that really matter to me: great user experience and eye pleasing design.
+            </h5>
+          </div>
+        </div>
+      </div>
     </main>
     <footer class="page-footer black">
       <div class="container">

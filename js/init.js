@@ -8,12 +8,41 @@
       }
     );
 
-    $('.button-collapse-about').sideNav({
-        menuWidth: 275, // Default is 240
+    $('.button-collapse-volunteer').sideNav({
+        menuWidth: 400, // Default is 240
         edge: 'right', // Choose the horizontal origin
         closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
       }
     );
+
+    $('.button-collapse-pizza').sideNav({
+        menuWidth: 400, // Default is 240
+        edge: 'right', // Choose the horizontal origin
+        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      }
+    );
+
+    $('.button-collapse-product').sideNav({
+        menuWidth: 400, // Default is 240
+        edge: 'right', // Choose the horizontal origin
+        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      }
+    );
+
+    $('.button-collapse-stori').sideNav({
+        menuWidth: 400, // Default is 240
+        edge: 'right', // Choose the horizontal origin
+        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      }
+    );
+
+    $('.button-collapse-about').sideNav({
+        menuWidth: 400, // Default is 240
+        edge: 'right', // Choose the horizontal origin
+        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      }
+    );
+
     $('.parallax').parallax();
 
   }); // end of document ready
