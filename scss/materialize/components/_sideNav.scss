@@ -112,9 +112,11 @@
 
 .side-nav .collapsible-body li.active,
 .side-nav.fixed .collapsible-body li.active {
-  background-color: $primary-color;
+  // background-color: $primary-color;
+  background-color: $sidenav-bg-color;
   a {
-    color: $sidenav-bg-color;
+    // color: $sidenav-bg-color;
+    color: $sidenav-font-color;
   }
 }
 
