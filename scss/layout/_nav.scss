@@ -1,4 +1,26 @@
-.nav-logo img {
-  width: 100%;
-  height: 100%;
+nav {
+  background-color:transparent;
+  .main-nav {
+    height: 100%;
+    background-color:$primary-color;
+    opacity: 0.50;
+    .nav-logo {
+      font-family: "Kaushan Script";
+      font-size: 36px;
+      text-shadow: 0.5px 0.5px color("blue-grey", "lighten-4");
+      color: color("shades", "white");
+     // img {
+      //   width: 100%;
+      //   height: 100%;
+      // }
+    }
+    a {
+      i {
+        opacity: 100;
+        font-size: 32px;
+        text-shadow: 0.5px 0.5px color("blue-grey", "darken-4");
+        color: color("shades", "white");
+      }
+    }
+  }
 }

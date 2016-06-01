@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One|Quicksand|Architects+Daughter|Kaushan+Script|Courgette' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <meta charset="utf-8">
@@ -8,30 +9,28 @@
   </head>
   <body>
     <header>
-      <nav>
-        <!-- <a class="nav-logo btn-floating btn-large white" href="#"><img src="./img/rk-logo.png" alt="Logo Image"></a> -->
-        <!-- <ul class="nav right hide-on-med-and-down">
-          <li><a href="#" data-activates="volunteer-slide-out" class="button-collapse-volunteer show-on-large">Volunteer Connection</a></li>
-          <li><a href="#" data-activates="pizza-slide-out" class="button-collapse-pizza show-on-large">Portland Pizza</a></li>
-          <li><a href="#" data-activates="product-slide-out" class="button-collapse-product show-on-large">Product Promo</a></li>
-          <li><a href="#" data-activates="stori-slide-out" class="button-collapse-stori show-on-large">Stori</a></li>
-          <li><a href="#" data-activates="about-slide-out" class="button-collapse-about show-on-large">About Me</a></li>
-        </ul> -->
-        <ul id="slide-out" class="side-nav">
-          <li><a href="#" data-activates="volunteer-slide-out" class="button-collapse-volunteer show-on-large">Volunteer Connection</a></li>
-          <li><a href="#" data-activates="pizza-slide-out" class="button-collapse-pizza show-on-large">Portland Pizza</a></li>
-          <li><a href="#" data-activates="product-slide-out" class="button-collapse-product show-on-large">Product Promo</a></li>
-         <li><a href="#" data-activates="stori-slide-out" class="button-collapse-stori show-on-large">Stori</a></li>
-          <li><a href="#" data-activates="about-slide-out" class="button-collapse-about show-on-large">About Me</a></li>
-        </ul>
-        <a href="#" data-activates="slide-out" class="button-collapse show-on-large right">
-          <i class="mdi-navigation-menu">Projects</i>
-        </a>
-      </nav>
       <div class="hero">
+        <nav>
+          <div class="main-nav">
+            <a class="nav-logo" href="#">Robin King</a>
+            <a href="#" data-activates="slide-out" class="button-collapse show-on-large right">
+              <i class="mdi-navigation-menu">Projects</i>
+            </a>
+          </div>
+          <ul id="slide-out" class="side-nav">
+            <li><a href="#" data-activates="volunteer-slide-out" class="button-collapse-volunteer show-on-large">Volunteer Connection</a></li>
+            <li><a href="#" data-activates="pizza-slide-out" class="button-collapse-pizza show-on-large">Portland Pizza</a></li>
+            <li><a href="#" data-activates="product-slide-out" class="button-collapse-product show-on-large">Product Promo</a></li>
+           <li><a href="#" data-activates="stori-slide-out" class="button-collapse-stori show-on-large">Stori</a></li>
+           <li><a href="#" data-activates="ask-slide-out" class="button-collapse-ask show-on-large">Ask Anything</a></li>
+          </ul>
+        </nav>
         <div class="hero-inner">
-          <a href="" class="hero-logo"><img src="./img/rk-logo.png" alt="Logo Image"></a>
+          <a href="" class="hero-logo"><img src="./img/headshotcalifornia-bw.jpg" alt="Logo Image"></a>
           <div class="hero-copy">
+            <p> After 10 years <br/>  as a .Net Web Developer,<br/> I decided to pursue the things <br/> that really matter to me: <br/>great user experience <br/>and eye pleasing design.
+            </p>
+            <h1>My name is Robin King<br/>I am a UX/UI Web Developer</h1>
           </div>
         </div>
       </div>
@@ -46,7 +45,7 @@
                 <span class="card-title">Volunteer Connection</span>
               </div>
               <div class="card-action">
-                <a href="http://robinbking.github.io/VolunteerMatch/" target="_blank">View website &raquo;</a>
+                <a href="http://robinbking.github.io/VolunteerMatch/" target="_blank" role="button">View website &raquo;</a>
               </div>
               <div class="card-content">
                 <p> Displays a list of volunteer organizations based on user input, using an API from the All For Good organization. This was a group project for which I was the team lead.
@@ -78,7 +77,7 @@
                 <span class="card-title">Portland Pizza Company</span>
               </div>
               <div class="card-action">
-                <a href="http://robinbking.github.io/portlandPizzaCompany/">View website</a>
+                <a href="http://robinbking.github.io/portlandPizzaCompany/" target="_blank" role="button">View website</a>
               </div>
               <div class="card-content">
                 <p> A study in o Object Oriented Programming using JavaScript objects and prototyps of objects and objects within objects. A user can select the pizza size and add ingredients. By placing the order a total cost will be calculated and returned.
@@ -165,39 +164,54 @@
           </div>
         </div>
       </div>
-      <div id="about-slide-out" class="container side-nav">
+      <div id="ask-slide-out" class="container side-nav">
         <div class="row">
           <div class="col s12">
+            <div class="card z-depth-3">
+              <div class="card-image">
+                <img src="img/ask-anything.png">
+              </div>
+              <div class="card-action">
+                <a href="http://robinbking.github.io/ask-anything_2.0/" target="_blank" role="button">View website &raquo;</a>
+              </div>
+              <div class="card-content">
+                <p> A study in using the Ember Frampework with a Firebase data storage. The application template contains header with links, data is stored in and retrieved from Ember Data models and Firebase, components are used to create display and behavior for the templates,  and One-to-many relationship exists between Question and Answers. <bf/> The project contains at functioning computed properties, a service has been implemented, and custom helpers are used to format data.
+                  <h6>software used:</h6>
+                  <ul>
+                    <li>JavaScript</li>
+                    <li>Ember</li>
+                    <li>Firebase</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                  </ul>
+                </p>
+              </div>
             </div>
-            <a class="headshot btn-floating btn-large" href="#"><img src="./img/headshotcalifornia.jpg" alt="headshot Image"></a>
-            <h3>My name is Robin King</h3>
-            <h4>and I am a Front End Web Developer</h4>
-            <h5> After 10 years as a .Net Web Developer, I decided to pursue the things that really matter to me: great user experience and eye pleasing design.
-            </h5>
           </div>
         </div>
       </div>
     </main>
-    <footer class="page-footer black">
+    <footer class="page-footer">
       <div class="container">
         <div class="row">
           <div class="col 12 m6">
-            <h5 class="amber-text">Contact</h5>
+            <h5>Contact</h5>
             <address>
               <ul>
-                <li><a class="amber-text text-lighten-3" href="mailto:samiamspop@gmail.com">email</a></li>
-                <li><a class="amber-text text-lighten-3" href="https://www.linkedin.com/in/robinbking" target="_blank">Linkedin</a></li>
-                <li><a class="amber-text text-lighten-3" href="https://https://github.com/RobinBKing" target="_blank">Github</a></li>
+                <li><a href="mailto:samiamspop@gmail.com">email</a></li>
+                <li><a href="https://www.linkedin.com/in/robinbking" target="_blank">Linkedin</a></li>
+                <li><a href="https://https://github.com/RobinBKing" target="_blank">Github</a></li>
               </ul>
             </address>
           </div>
           <div class="col l2 m6">
-            <h5 class="amber-text">Projects</h5>
+            <h5>Projects</h5>
             <ul>
-              <li id="volunteerConnection"><a class="amber-text text-lighten-3" href="#!">Volunteer Connection</a></li>
-              <li id="portlandPizza"><a class="amber-text text-lighten-3" href="#!">Portland Pizza Company</a></li>
-              <li id="product"><a class="amber-text text-lighten-3" href="#!">Product Site</a></li>
-              <li id="stori"><a class="amber-text text-lighten-3" href="http://robinbking.github.io/stori-case-study/" target="_blank">stori</a></li>
+              <li id="volunteerConnection"><a href="http://robinbking.github.io/VolunteerMatch/" target="_blank">Volunteer Connection</a></li>
+              <li id="portlandPizza"><a href="http://robinbking.github.io/portlandPizzaCompany/" target="_blank">Portland Pizza Company</a></li>
+              <li id="product"><a href="http://robinbking.github.io/product/" target="_blank">Product Site</a></li>
+              <li id="stori"><a href="http://robinbking.github.io/stori-case-study/" target="_blank">stori</a></li>
+              <li id="ask"><a href="http://robinbking.github.io/ask-anything_2.0/" target="_blank">Ask Anything</a></li>
             </ul>
           </div>
         </div>

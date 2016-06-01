@@ -1,3 +1,11 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
+.page-footer {
+  h5 {
+    color: color("blue-grey", "lighten-5");
+  }
+  li a {
+    color: color("blue-grey", "lighten-3");
+  }
+}
