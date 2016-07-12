@@ -43,6 +43,13 @@
       }
     );
 
+        $('.button-collapse-about').sideNav({
+            menuWidth: 400, // Default is 240
+            edge: 'right', // Choose the horizontal origin
+            closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+          }
+        );
+
     $('.parallax').parallax();
 
   }); // end of document ready
