@@ -1,26 +1,39 @@
 nav {
   background-color:transparent;
-  .main-nav {
+  .nav-wrapper {
     height: 100%;
     background-color:$primary-color;
     opacity: 0.50;
-    .nav-logo {
+    .brand-logo {
       font-family: "Kaushan Script";
       font-size: 36px;
       text-shadow: 0.5px 0.5px color("blue-grey", "lighten-4");
       color: color("shades", "white");
+      padding-left: 1.2rem;
      // img {
       //   width: 100%;
       //   height: 100%;
       // }
     }
-    a {
-      i {
-        opacity: 100;
-        font-size: 32px;
-        text-shadow: 0.5px 0.5px color("blue-grey", "darken-4");
-        color: color("shades", "white");
-      }
+  a i {
+      opacity: 1;
+      font-size: 32px;
+      text-shadow: 0.5px 0.5px color("blue-grey", "darken-4");
+      color: color("shades", "white");
     }
+  }
+
+  .button-collapse {
+    float: right;
+    padding-right: 1.2rem;
+
+    @media #{$medium-and-down} {
+      float: left;
+    }
+  }
+
+  .side-nav li {
+    opacity: 1;
+    z-index: 999;
   }
 }

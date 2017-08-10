@@ -6251,20 +6251,30 @@ html {
 
 nav {
   background-color: transparent; }
-  nav .main-nav {
+  nav .nav-wrapper {
     height: 100%;
     background-color: #009688;
     opacity: 0.50; }
-    nav .main-nav .nav-logo {
+    nav .nav-wrapper .brand-logo {
       font-family: "Kaushan Script";
       font-size: 36px;
       text-shadow: 0.5px 0.5px #cfd8dc;
-      color: #FFFFFF; }
-    nav .main-nav a i {
-      opacity: 100;
+      color: #FFFFFF;
+      padding-left: 1.2rem; }
+    nav .nav-wrapper a i {
+      opacity: 1;
       font-size: 32px;
       text-shadow: 0.5px 0.5px #263238;
       color: #FFFFFF; }
+  nav .button-collapse {
+    float: right;
+    padding-right: 1.2rem; }
+    @media only screen and (max-width: 992px) {
+      nav .button-collapse {
+        float: left; } }
+  nav .side-nav li {
+    opacity: 1;
+    z-index: 999; }
 
 .hero {
   background: url("./../img/haystack.jpg"), -webkit-linear-gradient(-280deg, #90a4ae, #90a4ae), no-repeat #90a4ae scroll;
@@ -6316,7 +6326,8 @@ nav {
       .hero .hero-inner .hero-copy p {
         color: #000000;
         line-height: 1.4em;
-        font-size: 1.4em; }
+        font-size: 1.4em;
+        font-style: italic; }
         @media screen and (min-width: 1200px) {
           .hero .hero-inner .hero-copy p {
             font-size: 1.8em;
@@ -6326,6 +6337,9 @@ nav {
   color: #eceff1; }
 .page-footer li a {
   color: #b0bec5; }
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-large):not(.btn-floating) {
+  color: #009688; }
 
 #about-slide-out {
   text-align: center;
