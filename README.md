@@ -20,7 +20,7 @@ Testing: Mocha, Chai
 3. Move into project folder in Terminal, and run $npm init, $npm install, $bower init, $bower install. This should install of of your npm and bower packages used in the .json files.
 4. Run $gulp build and $gulp serve to begin with fresh files and open the local server.
 
-## Site url: http://robinbking.github.io/
+## Site url: https://robinbking.github.io/
 
 ### Legal:
 Copyright (c) 2016 **Robin B. King**
