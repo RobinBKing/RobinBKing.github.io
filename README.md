@@ -23,4 +23,4 @@ Testing: Mocha, Chai
 ## Site url: https://robinbking.github.io/
 
 ### Legal:
-Copyright (c) 2016 **Robin B. King**
+Copyright (c) 2023 **Robin B. King**
